@@ -12,6 +12,7 @@
 		474D67C91DF5BE6F00E2FFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474D67C71DF5BE6F00E2FFD3 /* Main.storyboard */; };
 		474D67CB1DF5BE6F00E2FFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474D67CA1DF5BE6F00E2FFD3 /* Assets.xcassets */; };
 		474D67CE1DF5BE6F00E2FFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474D67CC1DF5BE6F00E2FFD3 /* LaunchScreen.storyboard */; };
+		474D67D71DF5BF1800E2FFD3 /* proprio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 474D67D61DF5BF1800E2FFD3 /* proprio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		474D67CA1DF5BE6F00E2FFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474D67CD1DF5BE6F00E2FFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474D67CF1DF5BE6F00E2FFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474D67D61DF5BF1800E2FFD3 /* proprio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = proprio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		474D67B71DF5BE6E00E2FFD3 = {
 			isa = PBXGroup;
 			children = (
+				474D67D51DF5BE9E00E2FFD3 /* Music */,
 				474D67C21DF5BE6F00E2FFD3 /* Music Player */,
 				474D67C11DF5BE6F00E2FFD3 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				474D67CF1DF5BE6F00E2FFD3 /* Info.plist */,
 			);
 			path = "Music Player";
+			sourceTree = "<group>";
+		};
+		474D67D51DF5BE9E00E2FFD3 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				474D67D61DF5BF1800E2FFD3 /* proprio.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 				474D67CE1DF5BE6F00E2FFD3 /* LaunchScreen.storyboard in Resources */,
 				474D67CB1DF5BE6F00E2FFD3 /* Assets.xcassets in Resources */,
 				474D67C91DF5BE6F00E2FFD3 /* Main.storyboard in Resources */,
+				474D67D71DF5BF1800E2FFD3 /* proprio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
