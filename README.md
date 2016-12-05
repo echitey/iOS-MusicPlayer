@@ -1,4 +1,4 @@
 # iOS-MusicPlayer
 iOS-MusicPlayer
 
-![alt text](player.png "Music PLayer ScreenShot")
+![alt text](playerv2.png "Music PLayer ScreenShot")
